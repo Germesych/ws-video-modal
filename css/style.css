@@ -31,12 +31,60 @@
 	cursor: pointer;
 }
 .ws-video-modal__icon-play{
-	width: 20px;
-	height: 15px;
-	background-color: #fff;
+	width: 0px;
+	height: 0px;
+	border-width: 10px 0 10px 20px;
+	border-color: transparent;
+	border-style: solid;
+	border-left-color: #fff;
+	margin-left: 5px;
 }
 .ws-video-modal__preview{
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+}
+.ws-video-modal__overlay{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9;
+}
+.ws-video-modal__overlay:hover .ws-video-modal__content-icon{
+	background-color: red;
+}
+.ws-modal__v-top-overlay{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100vw;
+  height: 100vh;
+	background-color: rgba(0,0,0,.8);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 9999;
+}
+.ws-modal__video-wrap{
+	position: relative;
+}
+.ws-modal__iframe{
+	width: 100%;
+}
+.ws-modal__close{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	font-size: 50px;
+	color: #fff;
+	cursor: pointer;
+}
+.scrol-none{
+	overflow: hidden !important;
 }
