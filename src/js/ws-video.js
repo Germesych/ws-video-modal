@@ -1,6 +1,6 @@
 class WsVideo {
-  constructor(options) {
-    this.mainBlock = options.mainBlock
+  constructor() {
+    this.mainBlock = '.ws-video'
     this.renderImg()
   }
   selectors = {
