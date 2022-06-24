@@ -1,0 +1,49 @@
+{
+  "name": "excel-curse",
+  "version": "1.0.0",
+  "description": "залить в ветку git push -u origin имя_ветки",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack serve --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Germesych/Excel-Curse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "browserslist": [
+    "last 5 version",
+    "> 2%",
+    "IE 10"
+  ],
+  "bugs": {
+    "url": "https://github.com/Germesych/Excel-Curse/issues"
+  },
+  "homepage": "https://github.com/Germesych/Excel-Curse#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "autoprefixer": "^10.4.0",
+    "babel-loader": "^8.2.3",
+    "copy-webpack-plugin": "^9.0.1",
+    "core-js": "^3.19.0",
+    "css-loader": "^6.5.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.4.3",
+    "node-sass": "^4.14.0",
+    "postcss-loader": "^6.2.0",
+    "regenerator-runtime": "^0.13.9",
+    "sass": "^1.43.4",
+    "sass-loader": "^12.3.0",
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1"
+  }
+}
